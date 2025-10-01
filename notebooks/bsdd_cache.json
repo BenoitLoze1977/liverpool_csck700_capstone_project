@@ -1,0 +1,246 @@
+{
+  "ifc_props_dict": {
+    "stone_wall_chimney": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Finish",
+        "code": "Finish",
+        "name": "Finish"
+      }
+    ],
+    "roof_wood_beam": [
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Species",
+        "code": "Species",
+        "name": "Species"
+      },
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StructuralGrade",
+        "code": "StructuralGrade",
+        "name": "Structural Grade"
+      },
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/MoistureContent",
+        "code": "MoistureContent",
+        "name": "Moisture Content"
+      },
+      null,
+      null,
+      null,
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/BendingStrength",
+        "code": "BendingStrength",
+        "name": "Bending Strength"
+      },
+      null,
+      null,
+      null
+    ],
+    "strip_footing": [
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/CompressiveStrength",
+        "code": "CompressiveStrength",
+        "name": "Compressive Strength"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "beam_shoe": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "ifc_propsets_dict": {
+    "stone_wall_chimney": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Finish",
+        "code": "Finish",
+        "name": "Finish"
+      }
+    ],
+    "roof_wood_beam": [
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Species",
+        "code": "Species",
+        "name": "Species"
+      },
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StructuralGrade",
+        "code": "StructuralGrade",
+        "name": "Structural Grade"
+      },
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/MoistureContent",
+        "code": "MoistureContent",
+        "name": "Moisture Content"
+      },
+      null,
+      null,
+      null,
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/BendingStrength",
+        "code": "BendingStrength",
+        "name": "Bending Strength"
+      },
+      null,
+      null,
+      null
+    ],
+    "strip_footing": [
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/CompressiveStrength",
+        "code": "CompressiveStrength",
+        "name": "Compressive Strength"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "beam_shoe": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "etim_props_dict": {
+    "stone_wall_chimney": [
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/etim/etim/10.0/prop/EF016863",
+        "code": "EF016863",
+        "name": "Water absorption according to EN 12808-5"
+      },
+      null,
+      null,
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/etim/etim/10.0/prop/EF016860",
+        "code": "EF016860",
+        "name": "Flexural strength according to EN 12808-3"
+      },
+      null,
+      null,
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/etim/etim/10.0/prop/EF018992",
+        "code": "EF018992",
+        "name": "Joint thickness"
+      },
+      null
+    ],
+    "roof_wood_beam": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/etim/etim/10.0/prop/EF026335",
+        "code": "EF026335",
+        "name": "Modulus of elasticity"
+      },
+      null,
+      null
+    ],
+    "strip_footing": [
+      null,
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/etim/etim/10.0/prop/EF010435",
+        "code": "EF010435",
+        "name": "Consistency class slump according to EN 206-1"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/etim/etim/10.0/prop/EF016796",
+        "code": "EF016796",
+        "name": "Surface finish visible side"
+      }
+    ],
+    "beam_shoe": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "etim_classes_dict": {
+    "stone_wall_chimney": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/etim/etim/10.0/class/EC003182",
+        "code": "EC003182",
+        "name": "Brickwork/pointing mortar"
+      },
+      null
+    ],
+    "roof_wood_beam": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "strip_footing": [
+      null,
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/etim/etim/10.0/class/EC003179",
+        "code": "EC003179",
+        "name": "Concrete mortar"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "beam_shoe": [
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}
