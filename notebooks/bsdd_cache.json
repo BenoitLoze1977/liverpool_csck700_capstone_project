@@ -1,46 +1,60 @@
 {
   "ifc_props_dict": {
     "stone_wall_chimney": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/CompressiveStrength",
+        "code": "CompressiveStrength",
+        "name": "Compressive Strength"
+      },
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/MassDensity",
+        "code": "MassDensity",
+        "name": "Mass Density"
+      },
       null,
       {
-        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Finish",
-        "code": "Finish",
-        "name": "Finish"
-      }
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/FireResistanceRating",
+        "code": "FireResistanceRating",
+        "name": "Fire Resistance Rating"
+      },
+      null,
+      null,
+      null,
+      null
     ],
     "roof_wood_beam": [
-      {
-        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Species",
-        "code": "Species",
-        "name": "Species"
-      },
-      {
-        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StructuralGrade",
-        "code": "StructuralGrade",
-        "name": "Structural Grade"
-      },
-      {
-        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/MoistureContent",
-        "code": "MoistureContent",
-        "name": "Moisture Content"
-      },
-      null,
-      null,
-      null,
       {
         "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/BendingStrength",
         "code": "BendingStrength",
         "name": "Bending Strength"
       },
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/TensileStrengthPerp",
+        "code": "TensileStrengthPerp",
+        "name": "Tensile Strength Perp"
+      },
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/CompressiveStrength",
+        "code": "CompressiveStrength",
+        "name": "Compressive Strength"
+      },
       null,
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ShearStrength",
+        "code": "ShearStrength",
+        "name": "Shear Strength"
+      },
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/FireResistanceRating",
+        "code": "FireResistanceRating",
+        "name": "Fire Resistance Rating"
+      },
       null,
-      null
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/DurabilityRating",
+        "code": "DurabilityRating",
+        "name": "Durability Rating"
+      }
     ],
     "strip_footing": [
       {
@@ -52,15 +66,22 @@
       null,
       null,
       null,
-      null,
-      null,
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ReinforcementSpacing",
+        "code": "ReinforcementSpacing",
+        "name": "Reinforcement Spacing"
+      },
       null,
       null
     ],
     "beam_shoe": [
       null,
       null,
-      null,
+      {
+        "uri": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StrengthGrade",
+        "code": "StrengthGrade",
+        "name": "Strength Grade"
+      },
       null
     ]
   },
