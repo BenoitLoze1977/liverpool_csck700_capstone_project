@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
   <diagram name="Graph Enrichment Strategy (Corrected Arrows)" id="0">
     <mxGraphModel dx="1198" dy="707" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -8,16 +8,16 @@
           <mxGeometry x="470" y="112" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ifcps" value="&lt;b&gt;INITIAL:&lt;/b&gt;&lt;div&gt;IFC Existing PSET&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="98" y="364" width="150" height="70" as="geometry" />
+          <mxGeometry x="55" y="364" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="enrps" value="&lt;b&gt;ENRICHMENT:&lt;/b&gt;&lt;br&gt;&lt;div&gt;IFC &lt;b&gt;&lt;i&gt;Placeholder&lt;/i&gt;&lt;/b&gt; PSET&lt;/div&gt;&lt;div&gt;(&lt;i&gt;unresolved PSET&lt;/i&gt;)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="495" y="363" width="150" height="70" as="geometry" />
+          <mxGeometry x="498" y="363" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="eprop_ifc" value="&lt;b&gt;ENRICHMENT:&lt;/b&gt;&lt;br&gt;&lt;div&gt;IFC existing property&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="100" y="524" width="146" height="75" as="geometry" />
+          <mxGeometry x="57" y="586" width="146" height="75" as="geometry" />
         </mxCell>
         <mxCell id="eprop1" value="&lt;b&gt;ENRICHMENT:&lt;/b&gt;&lt;br&gt;&lt;div&gt;IFC Existing property&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="495" y="524" width="149" height="75" as="geometry" />
+          <mxGeometry x="498" y="586" width="149" height="75" as="geometry" />
         </mxCell>
         <mxCell id="edge_dbp" value="[DEFINED_BY_PROPERTIES]" style="endArrow=block;html=1;" parent="1" source="ifcps" target="el" edge="1">
           <mxGeometry x="-1" y="52" relative="1" as="geometry">
@@ -30,7 +30,7 @@
             <mxPoint x="480.65118437730325" y="205.99556551215971" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge_enriches" value="[ENRICHES]" style="endArrow=block;html=1;" parent="1" source="eprop_ifc" target="ifcps" edge="1">
+        <mxCell id="edge_enriches" value="[HAS_PROPERTY]" style="endArrow=block;html=1;" parent="1" source="eprop_ifc" target="ifcps" edge="1">
           <mxGeometry x="-0.0667" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -41,7 +41,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Hi_qhKK5leBrRsqj2-Qh-1" value="&lt;b&gt;ENRICHMENT:&lt;/b&gt;&lt;div&gt;IFC Existing PSET&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="300" y="363" width="148" height="72" as="geometry" />
+          <mxGeometry x="263" y="363" width="148" height="72" as="geometry" />
         </mxCell>
         <mxCell id="Hi_qhKK5leBrRsqj2-Qh-2" value="[ENRICHED_BY_PROPERTIES]" style="endArrow=block;html=1;entryX=0.297;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Hi_qhKK5leBrRsqj2-Qh-1" target="el" edge="1">
           <mxGeometry x="-0.0186" y="-2" relative="1" as="geometry">
@@ -49,53 +49,68 @@
             <mxPoint x="477" y="206" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KvcFm-wtRcM6RTDPmmiR-1" value="&lt;b&gt;ENRICHMENT:&lt;/b&gt;&lt;br&gt;&lt;div&gt;IFC Existing property&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="300" y="524" width="148" height="75" as="geometry" />
+        <mxCell id="KvcFm-wtRcM6RTDPmmiR-1" value="&lt;b&gt;ENRICHMENT:&lt;/b&gt;&lt;br&gt;&lt;div&gt;IFC Existing property&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="263" y="586" width="148" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="KvcFm-wtRcM6RTDPmmiR-4" value="[HAS_PROPERTY]" style="endArrow=block;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="KvcFm-wtRcM6RTDPmmiR-1" target="Hi_qhKK5leBrRsqj2-Qh-1">
+        <mxCell id="KvcFm-wtRcM6RTDPmmiR-4" value="[HAS_PROPERTY]" style="endArrow=block;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="KvcFm-wtRcM6RTDPmmiR-1" target="Hi_qhKK5leBrRsqj2-Qh-1" edge="1">
           <mxGeometry x="-0.0337" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="327" y="515" as="sourcePoint" />
-            <mxPoint x="350" y="433" as="targetPoint" />
+            <mxPoint x="290" y="515" as="sourcePoint" />
+            <mxPoint x="313" y="433" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KvcFm-wtRcM6RTDPmmiR-5" value="&lt;b&gt;ENRICHMENT:&lt;/b&gt;&lt;br&gt;&lt;div&gt;ETIM Existing CLASS&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="690" y="361" width="148" height="72" as="geometry" />
+        <mxCell id="KvcFm-wtRcM6RTDPmmiR-5" value="&lt;b&gt;ENRICHMENT:&lt;/b&gt;&lt;br&gt;&lt;div&gt;ETIM Existing CLASS&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="714" y="361" width="148" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="KvcFm-wtRcM6RTDPmmiR-6" value="[ENRICHED_BY_PROPERTIES]" style="endArrow=block;html=1;" edge="1" parent="1" source="KvcFm-wtRcM6RTDPmmiR-5" target="el">
+        <mxCell id="KvcFm-wtRcM6RTDPmmiR-6" value="[ENRICHED_BY_PROPERTIES]" style="endArrow=block;html=1;" parent="1" source="KvcFm-wtRcM6RTDPmmiR-5" target="el" edge="1">
           <mxGeometry x="-0.0902" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="773" y="202" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KvcFm-wtRcM6RTDPmmiR-7" value="&lt;b&gt;ENRICHMENT:&lt;/b&gt;&lt;br&gt;&lt;div&gt;ETIM Existing property&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="688" y="524" width="148" height="75" as="geometry" />
+        <mxCell id="KvcFm-wtRcM6RTDPmmiR-7" value="&lt;b&gt;ENRICHMENT:&lt;/b&gt;&lt;br&gt;&lt;div&gt;ETIM Existing property&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="712" y="586" width="148" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="KvcFm-wtRcM6RTDPmmiR-8" value="[HAS_PROPERTY]" style="endArrow=block;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="KvcFm-wtRcM6RTDPmmiR-7" target="KvcFm-wtRcM6RTDPmmiR-5">
+        <mxCell id="KvcFm-wtRcM6RTDPmmiR-8" value="[HAS_PROPERTY]" style="endArrow=block;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="KvcFm-wtRcM6RTDPmmiR-7" target="KvcFm-wtRcM6RTDPmmiR-5" edge="1">
           <mxGeometry x="0.0334" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="704" y="515" as="sourcePoint" />
-            <mxPoint x="727" y="433" as="targetPoint" />
+            <mxPoint x="728" y="515" as="sourcePoint" />
+            <mxPoint x="751" y="433" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KvcFm-wtRcM6RTDPmmiR-9" value="&lt;b&gt;ENRICHMENT:&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;ETIM &lt;i&gt;&lt;b&gt;Placeholder &lt;/b&gt;&lt;/i&gt;CLASS&lt;/div&gt;&lt;div&gt;(&lt;i&gt;unresolved CLASS&lt;/i&gt;)&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="891" y="363" width="148" height="72" as="geometry" />
+        <mxCell id="KvcFm-wtRcM6RTDPmmiR-9" value="&lt;b&gt;ENRICHMENT:&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;ETIM &lt;i&gt;&lt;b&gt;Placeholder &lt;/b&gt;&lt;/i&gt;CLASS&lt;/div&gt;&lt;div&gt;(&lt;i&gt;unresolved CLASS&lt;/i&gt;)&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="977" y="363" width="148" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="KvcFm-wtRcM6RTDPmmiR-10" value="[ENRICHED_BY_PROPERTIES]" style="endArrow=block;html=1;entryX=0.89;entryY=0.781;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KvcFm-wtRcM6RTDPmmiR-9" target="el">
+        <mxCell id="KvcFm-wtRcM6RTDPmmiR-10" value="[ENRICHED_BY_PROPERTIES]" style="endArrow=block;html=1;entryX=0.89;entryY=0.781;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="KvcFm-wtRcM6RTDPmmiR-9" target="el" edge="1">
           <mxGeometry x="-1" y="-58" relative="1" as="geometry">
             <mxPoint x="20" y="17" as="offset" />
             <mxPoint x="962" y="205" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KvcFm-wtRcM6RTDPmmiR-11" value="&lt;b&gt;ENRICHMENT:&lt;/b&gt;&lt;br&gt;&lt;div&gt;ETIM Existing property&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="891" y="523" width="148" height="75" as="geometry" />
+        <mxCell id="KvcFm-wtRcM6RTDPmmiR-11" value="&lt;b&gt;ENRICHMENT:&lt;/b&gt;&lt;br&gt;&lt;div&gt;ETIM Existing property&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="977" y="585" width="148" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="KvcFm-wtRcM6RTDPmmiR-12" value="[HAS_PROPERTY]" style="endArrow=block;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="KvcFm-wtRcM6RTDPmmiR-11" target="KvcFm-wtRcM6RTDPmmiR-9">
+        <mxCell id="KvcFm-wtRcM6RTDPmmiR-12" value="[HAS_PROPERTY]" style="endArrow=block;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="KvcFm-wtRcM6RTDPmmiR-11" target="KvcFm-wtRcM6RTDPmmiR-9" edge="1">
           <mxGeometry x="0.0227" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="905" y="517" as="sourcePoint" />
-            <mxPoint x="928" y="435" as="targetPoint" />
+            <mxPoint x="991" y="517" as="sourcePoint" />
+            <mxPoint x="1014" y="435" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="N4XqMfg-8ZLFt4Hbmjw6-1" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;LABELS:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;IfcPropertySet&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;PSET&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="15" y="434" width="109" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="N4XqMfg-8ZLFt4Hbmjw6-2" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;LABELS:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;IfcPropertySet&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;PSET_ENRICHED&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="196" y="435" width="134" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="N4XqMfg-8ZLFt4Hbmjw6-3" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;LABELS:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;IfcPropertySet&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;PSET_ENRICHED_PLACEHOLDER&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="364" y="433" width="205" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="N4XqMfg-8ZLFt4Hbmjw6-4" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;LABELS:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;EtimClass&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ETIMCLASS_ENRICHED&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="433" width="207" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="N4XqMfg-8ZLFt4Hbmjw6-5" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;LABELS:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;EtimClass&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ETIMCLASS_ENRICHED_PLACEHOLDER&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="809" y="435" width="240" height="56" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
