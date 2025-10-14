@@ -97,20 +97,35 @@
             <mxPoint x="1014" y="435" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N4XqMfg-8ZLFt4Hbmjw6-1" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;LABELS:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;IfcPropertySet&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;PSET&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="N4XqMfg-8ZLFt4Hbmjw6-1" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;LABELS:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;IfcPropertySet&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;PSET&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="15" y="434" width="109" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="N4XqMfg-8ZLFt4Hbmjw6-2" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;LABELS:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;IfcPropertySet&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;PSET_ENRICHED&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="N4XqMfg-8ZLFt4Hbmjw6-2" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;LABELS:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;IfcPropertySet&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;PSET_ENRICHED&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="196" y="435" width="134" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="N4XqMfg-8ZLFt4Hbmjw6-3" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;LABELS:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;IfcPropertySet&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;PSET_ENRICHED_PLACEHOLDER&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="N4XqMfg-8ZLFt4Hbmjw6-3" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;LABELS:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;IfcPropertySet&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;PSET_ENRICHED_PLACEHOLDER&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="364" y="433" width="205" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="N4XqMfg-8ZLFt4Hbmjw6-4" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;LABELS:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;EtimClass&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ETIMCLASS_ENRICHED&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="N4XqMfg-8ZLFt4Hbmjw6-4" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;LABELS:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;EtimClass&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ETIMCLASS_ENRICHED&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="580" y="433" width="207" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="N4XqMfg-8ZLFt4Hbmjw6-5" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;LABELS:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;EtimClass&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ETIMCLASS_ENRICHED_PLACEHOLDER&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="N4XqMfg-8ZLFt4Hbmjw6-5" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;LABELS:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;EtimClass&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ETIMCLASS_ENRICHED_PLACEHOLDER&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="809" y="435" width="240" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="s101kbsUAKh-Ah42ZVWH-1" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;LABELS:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;IfcProperty&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ENRICHED_PROPERTY&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="55" y="660" width="150" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="s101kbsUAKh-Ah42ZVWH-2" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;LABELS:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;IfcProperty&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ENRICHED_PROPERTY&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="262" y="664" width="150" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="s101kbsUAKh-Ah42ZVWH-3" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;LABELS:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;IfcProperty&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ENRICHED_PROPERTY&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="498" y="664" width="150" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="s101kbsUAKh-Ah42ZVWH-4" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;LABELS:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;EtimProperty&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ENRICHED_PROPERTY&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="711" y="664" width="150" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="s101kbsUAKh-Ah42ZVWH-5" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;LABELS:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;EtimProperty&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ENRICHED_PROPERTY&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="976" y="664" width="150" height="56" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
